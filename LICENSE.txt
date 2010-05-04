@@ -1,0 +1,58 @@
+Satorii - a clean, minimalist theme focused on content
+Copyright (C) 2008 by Felipe Lavín Z.
+[http://www.yukei.net]
+
+Licensed under GNU General Public License 2.0
+[http://www.gnu.org/licenses/old-licenses/gpl-2.0.html]
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+===
+
+Based on the "Sandbox" theme, by Scott Alan Wallick
+[http://code.google.com/p/sandbox-theme/]
+Licensed under GNU GPL 2.0
+
+---
+
+Yahoo! User Interface CSS by Yahoo!
+[http://developer.yahoo.com/yui]
+Code licensed under the BSD License:
+
+---
+
+jQuery by John Resig
+[http://jquery.com]
+Dual licensed under the MIT 
+and GPL licenses.
+
+---
+
+Mini Icons 2 
+[http://www.brandspankingnew.net/archive/2006/12/hohoho.html]
+
+(c)2006 Timothy Graves 
+[http://www.brandspankingnew.net] 
+
+Under an Attribution-ShareAlike 2.5 Creative Commons License
+[http://creativecommons.org/licenses/by-sa/2.5/]
+
+---
+
+jQuery growfield
+[http://code.google.com/p/jquery-growfield/]
+MIT License
+
+---
+
+jQuery FancyBox
+[http://fancy.klade.lv/]
+Licensed under the MIT License

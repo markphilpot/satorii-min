@@ -1,0 +1,407 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid   ""
+msgstr  "Project-Id-Version: PACKAGE VERSION\n"
+        "Report-Msgid-Bugs-To: \n"
+        "POT-Creation-Date: 2008-12-24 11:15-0300\n"
+        "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+        "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+        "Language-Team: LANGUAGE <LL@li.org>\n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=CHARSET\n"
+        "Content-Transfer-Encoding: 8bit\n"
+
+#: 404.php:7
+msgid   "Not Found"
+msgstr  ""
+
+#: 404.php:9
+msgid   "Apologies, but we were unable to find what you were looking for. "
+        "Perhaps  searching will help."
+msgstr  ""
+
+#: 404.php:14 functions.php:362 search.php:36 sidebar.php:40
+msgid   "Find"
+msgstr  ""
+
+#: archive.php:9
+#, php-format
+msgid   "Daily Archives: <span>%s</span>"
+msgstr  ""
+
+#: archive.php:11
+#, php-format
+msgid   "Monthly Archives: <span>%s</span>"
+msgstr  ""
+
+#: archive.php:13
+#, php-format
+msgid   "Yearly Archives: <span>%s</span>"
+msgstr  ""
+
+#: archive.php:15
+msgid   "Blog Archives"
+msgstr  ""
+
+#: archive.php:21 archive.php:32 author.php:12 author.php:25 category.php:11
+#: category.php:22 index.php:7 index.php:40 tag.php:9 tag.php:20
+msgid   "<span class=\"meta-nav\">&laquo;</span> Older posts"
+msgstr  ""
+
+#: archive.php:22 archive.php:33 author.php:13 author.php:26 category.php:12
+#: category.php:23 index.php:8 index.php:41 tag.php:10 tag.php:21
+msgid   "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+msgstr  ""
+
+#: archives.php:20
+msgid   "Archives by Category"
+msgstr  ""
+
+#: archives.php:26
+msgid   "Archives by Month"
+msgstr  ""
+
+#: archives.php:32 attachment.php:38 comments.php:45 comments.php:75
+#: image.php:37 links.php:22 page.php:17 short-post-template.php:2
+msgid   "Edit"
+msgstr  ""
+
+#: attachment.php:8 image.php:9
+#, php-format
+msgid   "Return to %s"
+msgstr  ""
+
+#: attachment.php:19 image.php:18
+#, php-format
+msgid   "Posted by %1$s on <abbr class=\"published\" title=\"%2$sT%3$s\">%4$s "
+        "at %5$s</abbr>. Bookmark the <a href=\"%6$s\" title=\"Permalink to %7"
+        "$s\" rel=\"bookmark\">permalink</a>. Follow any comments here with "
+        "the <a href=\"%8$s\" title=\"Comments RSS to %7$s\" rel=\"alternate"
+        "\" type=\"application/rss+xml\">RSS feed for this post</a>."
+msgstr  ""
+
+#: attachment.php:20 image.php:19 index.php:24 short-post-template.php:13
+#: single.php:25
+#, php-format
+msgid   "View all posts by %s"
+msgstr  ""
+
+#: attachment.php:30 image.php:29
+#, php-format
+msgid   "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment"
+        "\">Post a comment</a> or leave a trackback: <a class=\"trackback-link"
+        "\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+        "\">Trackback URL</a>."
+msgstr  ""
+
+#: attachment.php:32 image.php:31
+#, php-format
+msgid   "Comments are closed, but you can leave a trackback: <a class="
+        "\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" "
+        "rel=\"trackback\">Trackback URL</a>."
+msgstr  ""
+
+#: attachment.php:34 image.php:33
+msgid   "Trackbacks are closed, but you can <a class=\"comment-link\" href="
+        "\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr  ""
+
+#: attachment.php:36 image.php:35
+msgid   "Both comments and trackbacks are currently closed."
+msgstr  ""
+
+#: author.php:8
+#, php-format
+msgid   "Author Archives: <span class=\"vcard\">%s</span>"
+msgstr  ""
+
+#: category.php:6
+msgid   "Category Archives:"
+msgstr  ""
+
+#: comments.php:10
+msgid   "This post is protected. Enter the password to view any comments."
+msgstr  ""
+
+#: comments.php:30
+#, php-format
+msgid   "<span>%d</span> Trackbacks"
+msgstr  ""
+
+#: comments.php:30
+msgid   "<span>No</span> Trackbacks"
+msgstr  ""
+
+#: comments.php:32
+msgid   "You can leave a trackback using this <acronym title=\"Universal "
+        "Resource Locator\">URL</acronym>:"
+msgstr  ""
+
+#: comments.php:41
+#, php-format
+msgid   "By %1$s on %2$s at %3$s"
+msgstr  ""
+
+#: comments.php:46
+msgid   "\\t\\t\\t\\t\\t<span class=\"unapproved\">Your trackback is awaiting "
+        "moderation.</span>\\n"
+msgstr  ""
+
+#: comments.php:61
+#, php-format
+msgid   "<span>%d</span> Comments"
+msgstr  ""
+
+#: comments.php:61
+msgid   "<span>One</span> Comment"
+msgstr  ""
+
+#: comments.php:68
+msgid   "\t\t\t\t\t<span class='unapproved'>Your comment is awaiting "
+        "moderation.</span>\n"
+msgstr  ""
+
+#: comments.php:71
+#, php-format
+msgid   "Posted %1$s at %2$s <span class=\"meta-sep\">|</span> <a href=\"%3$s"
+        "\" title=\"Permalink to this comment\">Permalink</a>"
+msgstr  ""
+
+#: comments.php:92
+msgid   "Post a Comment"
+msgstr  ""
+
+#: comments.php:95
+#, php-format
+msgid   "You must be <a href=\"%s\" title=\"Log in\">logged in</a> to post a "
+        "comment."
+msgstr  ""
+
+#: comments.php:103
+#, php-format
+msgid   "<span class=\"loggedin\">Logged in as <a href=\"%1$s\" title="
+        "\"Logged in as %2$s\">%2$s</a>.</span> <span class=\"logout\"><a "
+        "href=\"%3$s\" title=\"Log out of this account\">Log out?</a></span>"
+msgstr  ""
+
+#: comments.php:110
+msgid   "Your email is <em>never</em> shared."
+msgstr  ""
+
+#: comments.php:110
+msgid   "Required fields are marked <span class=\"required\">*</span>"
+msgstr  ""
+
+#: comments.php:114
+msgid   "Name"
+msgstr  ""
+
+#: comments.php:114 comments.php:117
+msgid   "<span class=\"required\">*</span>"
+msgstr  ""
+
+#: comments.php:117
+msgid   "Email"
+msgstr  ""
+
+#: comments.php:120
+msgid   "Website"
+msgstr  ""
+
+#: comments.php:127
+msgid   "Comment"
+msgstr  ""
+
+#: comments.php:130
+msgid   "Post Comment"
+msgstr  ""
+
+#: footer.php:5
+msgid   "WordPress"
+msgstr  ""
+
+#: footer.php:5
+msgid   "Sandbox theme for WordPress"
+msgstr  ""
+
+#: footer.php:5
+msgid   "Sandbox"
+msgstr  ""
+
+#: functions.php:361 functions.php:469 functions.php:471 sidebar.php:36
+msgid   "Search"
+msgstr  ""
+
+#: functions.php:390 functions.php:443
+msgid   "Title:"
+msgstr  ""
+
+#: functions.php:391
+msgid   "Button Text:"
+msgstr  ""
+
+#: functions.php:400 functions.php:478 functions.php:480 sidebar.php:56
+msgid   "Meta"
+msgstr  ""
+
+#: functions.php:419 functions.php:487 functions.php:488
+msgid   "RSS Links"
+msgstr  ""
+
+#: functions.php:424
+msgid   "Posts RSS feed"
+msgstr  ""
+
+#: functions.php:424 sidebar.php:50
+msgid   "All posts"
+msgstr  ""
+
+#: functions.php:425
+msgid   "Comments RSS feed"
+msgstr  ""
+
+#: functions.php:425 sidebar.php:51
+msgid   "All comments"
+msgstr  ""
+
+#: functions.php:467
+msgid   "A search form for your blog (Sandbox)"
+msgstr  ""
+
+#: functions.php:476
+msgid   "Log in/out and administration links (Sandbox)"
+msgstr  ""
+
+#: functions.php:485
+msgid   "RSS links for both posts and comments (Sandbox)"
+msgstr  ""
+
+#: header.php:10 sidebar.php:50
+#, php-format
+msgid   "%s latest posts"
+msgstr  ""
+
+#: header.php:11 sidebar.php:51
+#, php-format
+msgid   "%s latest comments"
+msgstr  ""
+
+#: header.php:34
+msgid   "Skip to content"
+msgstr  ""
+
+#: index.php:14 short-post-template.php:2
+#, php-format
+msgid   "Permalink to %s"
+msgstr  ""
+
+#: index.php:16 short-post-template.php:4
+msgid   "Read More <span class=\"meta-nav\">&raquo;</span>"
+msgstr  ""
+
+#: index.php:17 page.php:15 single.php:17
+msgid   "Pages:"
+msgstr  ""
+
+#: index.php:18 short-post-template.php:6 single.php:18
+msgid   "<p class=\"tag-links\"><span>Tagged:</span> "
+msgstr  ""
+
+#: index.php:21 short-post-template.php:10 single.php:22
+msgid   "Published:"
+msgstr  ""
+
+#: index.php:22 short-post-template.php:11 single.php:23
+#, php-format
+msgid   "%1$s &#8211; %2$s"
+msgstr  ""
+
+#: index.php:23 short-post-template.php:12 single.php:24
+msgid   "Author:"
+msgstr  ""
+
+#: index.php:24 short-post-template.php:13 single.php:25
+#, php-format
+msgid   "By %s"
+msgstr  ""
+
+#: index.php:25 short-post-template.php:5 single.php:26
+msgid   "Categories:"
+msgstr  ""
+
+#: index.php:29 single.php:30
+msgid   "Comments:"
+msgstr  ""
+
+#: index.php:30 single.php:33
+msgid   "None"
+msgstr  ""
+
+#: index.php:30 single.php:33
+msgid   "1 Comment"
+msgstr  ""
+
+#: index.php:30 single.php:33
+msgid   "% Comments"
+msgstr  ""
+
+#: index.php:31 single.php:39
+msgid   "Edit this post"
+msgstr  ""
+
+#: index.php:31 single.php:39
+msgid   "<dt>Edit</dt><dd class=\"edit-link\">"
+msgstr  ""
+
+#: search.php:8
+msgid   "Search Results for:"
+msgstr  ""
+
+#: search.php:11 search.php:22
+msgid   "<span class=\"meta-nav\">&laquo;</span> Older results"
+msgstr  ""
+
+#: search.php:12 search.php:23
+msgid   "Newer results <span class=\"meta-nav\">&raquo;</span>"
+msgstr  ""
+
+#: search.php:29
+msgid   "Nothing Found"
+msgstr  ""
+
+#: search.php:31
+msgid   "Sorry, but nothing matched your search criteria. Please try again "
+        "with some different keywords."
+msgstr  ""
+
+#: sidebar.php:7
+msgid   "Pages"
+msgstr  ""
+
+#: sidebar.php:14
+msgid   "Categories"
+msgstr  ""
+
+#: sidebar.php:22
+msgid   "Archives"
+msgstr  ""
+
+#: sidebar.php:48
+msgid   "RSS Feeds"
+msgstr  ""
+
+#: single.php:34
+msgid   "Comments RSS Feed"
+msgstr  ""
+
+#: single.php:36
+msgid   "Trackback <acronym title=\"Universal Resource Locator\">URL</acronym>"
+msgstr  ""
+
+#: tag.php:6
+msgid   "Tag Archives:"
+msgstr  ""
