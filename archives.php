@@ -11,28 +11,36 @@ Template Name: Archives Page
 <?php the_post() ?>
 
 			<div id="post-<?php the_ID() ?>" class="<?php sandbox_post_class() ?>">
-				<h2 class="entry-title"><?php the_title() ?></h2>
-				<div class="entry-content">
 <?php the_content() ?>
 
-				<div class="yui-g">
-					<div class="yui-u first" id="category-archives">
-							<h3><?php _e( 'Archives by Category', 'sandbox' ) ?></h3>
-							<ul>
-								<?php wp_list_categories('optioncount=1&title_li=&show_count=1') ?> 
-							</ul>
-					</div>
-					<div class="yui-u" id="monthly-archives">
-							<h3><?php _e( 'Archives by Month', 'sandbox' ) ?></h3>
-							<ul>
-								<?php wp_get_archives('type=monthly&show_post_count=1') ?>
-							</ul>
-					</div>
-				</div>
+				<table id="archives">
+				<?php 
+				$all = get_posts('numberposts=-1');
+				$currentYear = "";
+				$currentMonth = "";
+				foreach($all as $post):
+					setup_postdata($post);
+					if($currentYear != mysql2date("Y", $post->post_date))
+					{
+						$currentYear = mysql2date("Y", $post->post_date);
+						print "<tr class=year><th colspan=2>$currentYear</th></tr>\n";
+					}
+					if($currentMonth != mysql2date("F", $post->post_date))
+					{
+						$currentMonth = mysql2date("F", $post->post_date);
+						print "<tr><th>$currentMonth</th><td></td></tr>\n";
+					}
+					$day = mysql2date("d", $post->post_date);
+					$title = $post->post_title;
+					print "<tr><th>$day</th><td><a href=\"";
+					the_permalink();
+					print "\">$title</a></td></tr>\n";
+				?>
+				<?php endforeach; ?>
+				</table>
 				
 <?php edit_post_link( __( 'Edit', 'sandbox' ), '<span class="edit-link">', '</span>' ) ?>
 
-				</div>
 			</div><!-- .post -->
 
 <?php if ( get_post_custom_values('comments') ) comments_template() // Add a key/value of "comments" to enable comments on pages! ?>
@@ -40,5 +48,5 @@ Template Name: Archives Page
 		</div><!-- #content -->
 	</div><!-- #container -->
 
-<?php get_sidebar() ?>
+<?php //get_sidebar() ?>
 <?php get_footer() ?>

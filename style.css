@@ -1,11 +1,11 @@
 /*
-THEME NAME: Satorii
-THEME URI: http://yukei.net
-DESCRIPTION: A minimalist theme with a strong focus on content
+THEME NAME: Satorii-Min
+THEME URI: http://blog.mcstudios.net
+DESCRIPTION: A minimalist theme based on Felipe Lavin's Satorii
 VERSION: 1.0
-AUTHOR: <a href="http://felipe.lv">Felipe Lavin</a>
-AUTHOR URI: http://felipe.lv
-TAGS: one-column, white, light, microformats
+AUTHOR: <a href="http://blog.mcstudios.net">Mark Philpot</a>
+AUTHOR URI: http://www.markphilpot.net
+TAGS: one-column, white, light, microformats, minimal
 */
 
 @import url(css/reset-fonts-grids.css);
@@ -639,4 +639,22 @@ text-align:center;
 }
 .gallery-item img{
 border:2px solid #ddd
+}
+
+#archives th{
+	color: #000000;
+	background-color: #FFFFFF;
+	text-align: right;
+	vertical-align: baseline;
+}
+
+#archives{
+	width: 75%;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#archives .year th{
+	background-color: #F7F4EE;
 }

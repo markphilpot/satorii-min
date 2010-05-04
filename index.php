@@ -20,12 +20,6 @@
 				<dl class="entry-meta">
 					<dt><?php _e('Published:', 'sandbox')?></dt>
 						<dd class="entry_date"><abbr class="published" title="<?php the_time('Y-m-d\TH:i:sO') ?>"><?php unset($previousday); printf( __( '%1$s &#8211; %2$s', 'sandbox' ), the_date( '', '', '', false ), get_the_time() ) ?></abbr></dd>
-					<dt><?php _e('Author:', 'sandbox')?></dt>
-						<dd class="author vcard"><?php printf( __( 'By %s', 'sandbox' ), '<a class="url fn n" href="' . get_author_link( false, $authordata->ID, $authordata->user_nicename ) . '" title="' . sprintf( __( 'View all posts by %s', 'sandbox' ), $authordata->display_name ) . '">' . get_the_author() . '</a>' ) ?></dd>
-					<dt><?php _e('Categories:', 'sandbox')?></dt>
-						<dd class="cat-links">
-						<?php the_category(); ?>
-						</dd>
 					<dt><?php _e('Comments:', 'sandbox')?></dt>
 						<dd class="comments-link"><?php comments_popup_link( __( 'None', 'sandbox' ), __( '1 Comment', 'sandbox' ), __( '% Comments', 'sandbox' ) ) ?></dd>
 					<?php edit_post_link( __('Edit this post', 'sandbox'), __('<dt>Edit</dt><dd class="edit-link">', 'sandbox'), '</dd>');?>
@@ -44,5 +38,5 @@
 		</div><!-- #content -->
 	</div><!-- #container -->
 
-<?php get_sidebar() ?>
+<?php //get_sidebar() ?>
 <?php get_footer() ?>

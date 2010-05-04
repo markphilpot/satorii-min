@@ -1,9 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes() ?>>
+<!DOCTYPE HTML>
+<html <?php language_attributes() ?>>
 <head profile="http://gmpg.org/xfn/11">
 	<title><?php wp_title( '-', true, 'right' ); echo wp_specialchars( get_bloginfo('name'), 1 ) ?></title>
 	<meta http-equiv="content-type" content="<?php bloginfo('html_type') ?>; charset=<?php bloginfo('charset') ?>" />
-	<meta name="google-site-verification" content="NdrlXcgyzY4Nnjrkk06UGZM64tGi7o-CLGNikKyX0i4" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url') ?>" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory') ?>/css/fancy.yuic.css" />		
 	
